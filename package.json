@@ -1,0 +1,11 @@
+{
+  "name": "mycontacts-backend",
+  "version": "1.0.0",
+  "description": "This is express pronect for my contacts backend api",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Lokendra Bhat",
+  "license": "MIT"
+}
