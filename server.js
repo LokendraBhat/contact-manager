@@ -19,7 +19,7 @@ const port = process.env.PORT || 5000;
 
 app.use(express.json());                                         // Middleware
 app.use("/api/contacts", require("./routes/contactRoutes"));     // Middleware: constactRoutes
-app.use("/api/users/", require("./routes/userRoutes"))               // Middleware: userRoutes
+app.use("/api/users/", require("./routes/userRoutes"));          // Middleware: userRoutes
 app.use(errorHandler);
 
 
